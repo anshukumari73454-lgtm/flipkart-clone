@@ -1,0 +1,197 @@
+*{
+    border: border-box;
+    font-family: arial;
+}
+.post li{
+    float: left;
+    list-style-type: none;
+    
+}
+.post{
+    border: 5px solid black;
+    border: border-box;
+    height: 45px;
+    width: 1500px;
+    background-color: black;
+}
+li{
+    margin: 15px 10px 10px 10px;
+    padding: 0px 5px;
+    font-weight: 200px;
+    border: border-box;
+    vertical-align: middle;
+    color: White;
+    display: inline-block;
+  
+}
+#flipkart{
+    border: 0px solid white;
+    width: fit-content;
+    cursor: pointer;
+    position:static;
+    padding: 1px 8px 6px;
+    height: 75px;
+}
+.location{
+    border:3px solid grey ;
+    border-radius: 5px
+}
+#search{
+    border: 3px solid rgb(85, 183, 219);
+    border-radius:5px ;
+    width: 500px;
+    height: 25px;
+    cursor: pointer;
+    padding: 7px 10px 10px 0;
+    position: static;
+}
+#foot{
+    list-style-type: none;
+    float: left;
+    vertical-align: middle;
+    position: fixed;
+}
+.navbar{
+    display: flex;
+    height: 75px;
+    background-color: rgb(148, 231, 231);
+    align-items: center;
+    
+}
+/**search box**/
+.search-nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+    
+}
+.search-icon{
+    display: flex;
+    vertical-align: middle;
+    padding: 15px;
+    width: 45px;
+    height: 18px;
+    background-color: rgb(202, 191, 33);
+    border-radius: 3px;
+    align-items: center;
+    font-size: 1.2rem;
+}
+/**box4 and box 5**/
+.order{
+    font-size: medium;
+    font-weight: 700;
+}
+.return{
+    font-size: small;
+}
+.images{
+    width: 800px;
+    height: 400px;
+    
+}
+.axes{
+    display: flex;
+}
+.image{
+    width: 1600px;
+}
+.box1{
+    display: flex;
+    border: 8px solid rgb(129, 129, 155);
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.search-nav:hover{
+    border: 2px solid orange;
+}
+.box2{
+    display: flex;
+    border: 8px solid rgb(129, 129, 155);
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.box3{
+    display: flex;
+    border: 8px solid rgb(129, 129, 155);
+     margin-top: 8px;
+    margin-bottom: 8px;
+
+}
+.nav-cart{
+    
+    font-weight: 700;
+    margin: 40px;
+    
+}
+.nav-cart i{
+    font-size: 30px;
+    cursor: pointer;
+    
+    
+}
+.return-nav{
+    
+      margin: 15px;
+}
+.signin{
+     
+      margin: 40px;
+      font-weight: 700;
+      cursor: pointer;
+}
+.text{
+    font-weight: 700;
+    font-size: large;
+}
+.boxes{
+    margin: 10px;
+}
+h2{
+    text-align: center;
+    font-weight: 700;
+    align-items: center;
+}
+button{
+    
+    font-weight: 700;
+    align-items: center;
+
+
+}
+.sign{
+    width: 100px;
+    height: 40px;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    font-size: medium;
+}
+.im1{
+    display: flex;
+
+}
+.signin:hover{
+    color: brown;
+}
+.nav-cart:hover{
+    color: yellow;
+}
+.cart{
+    font-size: medium;
+    font-weight: 700;
+}
+.image1{
+    border: 5px solid grey;
+    margin: 30px 30px 30px;
+    
+    
+    width: 400px;
+}
+.image2{
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
